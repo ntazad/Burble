@@ -103,6 +103,7 @@ a{
 	
 }
 
+
 a:hover {
 	color: white;
 	transition: all 0.3s ease-in-out;
@@ -119,6 +120,12 @@ a:hover {
 	clear: both;
 	display: table;
 }
+
+/* Content CSS */
+
+
+
+
 
 footer {
 	width: 100%;
@@ -205,7 +212,6 @@ form{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-
 	margin-bottom: 50px;
 }
 
@@ -326,7 +332,7 @@ form button:hover{
 hr{
 	width: 90%;
 	border: 0;
-	border-bottom: 1px solid #AACCE4;
+	border-bottom: 1px solid #a2c0d683;
 	margin: 20px auto
 }
 
@@ -338,6 +344,12 @@ hr{
 	color: Black;
 
 }
+
+
+
+
+
+
 
 
 
