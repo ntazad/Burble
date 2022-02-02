@@ -129,11 +129,12 @@ a:hover {
 
 footer {
 	width: 100%;
-	position: absolute;
 	bottom: 0;
 	background-color: #7795A8;
 	font-size: 13px;
 	line-height: 20px;
+	padding-top: 25px;
+	position: relative;
 }
 .row{
 	width: 85%;
@@ -343,6 +344,17 @@ hr{
 	font-size: 17px;
 	color: Black;
 
+}
+
+.blog-tittle{
+	padding-top: 210px;
+	font-size: 35px;
+	color: #000000;
+	text-align: center;
+}
+
+.blog-text{
+	margin: 25px;
 }
 
 
