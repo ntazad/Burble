@@ -1,6 +1,6 @@
 @font-face {
     font-family:"Blueberry";
-    src: url("font/Blueberry.ttf");
+    src: url("fonts/Blueberry\ .ttf");
 }
 
 * {
@@ -52,6 +52,7 @@ body {
 	position: relative;
 	top: -59px;
 	left: 420px;
+	align-items: center;
 }
 
 .nav-one{
@@ -341,21 +342,93 @@ hr{
 	text-align: center;
 	padding-bottom: 5px;
 	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
 	font-size: 17px;
 	color: Black;
 
 }
 
-.blog-title{
-	padding-top: 210px;
-	font-size: 50px;
-	color: #000000;
-	text-align: center;
-	font-family: cursive;
+.blog-content{
+	margin-bottom: 100px;
+	margin-left: 160px;
+	margin-right: 160px;
 }
 
-.blog-text{
-	margin: 125px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	text-align: center;
+.blog-title{
+	font-family:"Blueberry";
+	padding-top: 250px;
+	font-size: 50px;
+	color: #7795A8;
+	padding-left: 50px;
+	
 }
+.blog-subtitle{
+	font-family: 'Amatic SC', cursive;
+	padding-top: 10px;
+	font-size: 30px;
+	color: #7795A8;
+	padding-left: 50px;
+	
+}
+
+
+
+.blog-hr{
+	margin-left: 50px;
+	margin-right: 990px;
+}
+
+.square {
+	height: 350px;
+	width: 1050px;
+	align-items: center;
+	background-color: #BAD8E8;
+	border-radius: 5px;
+	/* padding-top: 600px;  */
+	/* padding-bottom: 30px; */
+	/* margin-left: 730px; */
+	/* margin-top: 160px; */
+	
+
+  }
+
+.square:hover {
+	background-color: #FFFFFF;
+	transition: all 0.3s ease-in-out;
+  }
+
+.blog-text{
+	margin-bottom: 100px;
+	margin-top: 15px;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: 'Roboto Mono', monospace;
+	line-height: 22px;
+
+}
+
+.blog-text h4 {
+	font-weight: bolder;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Courier Prime', monospace;
+	letter-spacing: 2px;
+}
+
+  .intro-para{
+	  text-align: center;
+	  padding: 25px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
