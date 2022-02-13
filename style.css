@@ -147,8 +147,8 @@ footer {
 	
 }
 .footer-col-one{
-	flex-basis: 25%;
-	padding: 10px;
+	flex-basis: 15%;
+	padding: 5px;
 	color: #FFFFFF;
 	line-height: 250%;
 	font-family: 'Amatic SC', cursive;
@@ -161,8 +161,8 @@ footer {
 }
 
 .footer-col-two{
-	flex-basis: 25%;
-	padding: 10px;
+	flex-basis: 15%;
+	padding: 5px;
 	color: #FFFFFF;
 	line-height: 250%;
 	font-family: 'Amatic SC', cursive;
@@ -175,8 +175,8 @@ footer {
 }
 
 .footer-col-three{
-	flex-basis: 25%;
-	padding: 10px;
+	flex-basis: 15%;
+	padding: 5px;
 	color: #FFFFFF;
 	line-height: 250%;
 	font-family: 'Amatic SC', cursive;
@@ -189,28 +189,36 @@ footer {
 }
 
 .footer-col-four{
-	flex-basis: 25%;
-	padding: 10px;
+	flex-basis: 15%;
+	padding: 5px;
 	color: #FFFFFF;
-	line-height: 250%;
+	line-height: 200%;
 	font-family: 'Amatic SC', cursive;
 	font-size: medium;
 	letter-spacing: 1px;
 	padding-bottom: 25px;
-	padding-top: 45px;
-	display: flex;
+	padding-top: 25px;
+	
 	
 	
 } 
 
 .footer-col-four h3{
-	text-align: center;
-
+	font-size: 20px;
+	padding-bottom: 5px;
 }
+
+.footer-col-four p{
+	text-align: left;
+	color: #BAD8E8;
+	
+}
+
 
 
 form{
 	padding-bottom: 15px;
+	padding-top: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -281,7 +289,7 @@ form button:hover{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(85%, -50%);
+    transform: translate(85%, 90%);
     padding: 0;
     margin: 0;
     display: flex;
