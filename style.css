@@ -1,3 +1,8 @@
+::selection {
+	color: white;
+	background: #7795A8;
+  }
+
 @font-face {
     font-family:"Blueberry";
     src: url("fonts/Blueberry\ .ttf");
