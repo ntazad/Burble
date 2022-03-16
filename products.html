@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <div class="product-card">
+        <h1>Journal</h1>
+        <p>Lorem ipsum, or lipsum as it is sometimes known</p>
+        <div class="product-pic"></div>
+        <div class="product-colors">
+          <span class="blue active" data-color="#7ed6df" data-pic="https://ih1.redbubble.net/image.1829582087.0446/hj,750x-pad,750x1000,f8f8f8.u4.jpg"></span>
+          <span class="green" data-color="#badc58" data-pic="https://ih1.redbubble.net/image.416679253.8044/hj,496x-pad,600x600,f8f8f8.u4.jpg"></span>
+          <span class="yellow" data-color="#f9ca24" data-pic="https://ih1.redbubble.net/image.1463968157.9339/hj,1000x-pad,1000x1000,f8f8f8.jpg"></span>
+          <span class="rose" data-color="#ff7979" data-pic="https://ih1.redbubble.net/image.1212067939.9813/hj,750x-pad,750x1000,f8f8f8.jpg"></span>
+        </div>
+        <div class="product-info">
+          <div class="product-price">$20</div>
+          <a href="" class="product-button">Add to Cart</a>
+        </div>
+      </div>
+   
+      <script>
+        $(".product-colors span").click(function(){
+          $(".product-colors span").removeClass("active");
+          $(this).addClass("active");
+          $("body").css("background",$(this).attr("data-color"));
+          $(".product-price").css("color",$(this).attr("data-color"));
+          $(".product-button").css("color",$(this).attr("data-color"));
+          $(".product-pic").css("background-image",$(this).attr("data-pic"));
+        });
+      </script>
+</body>
+</html>
