@@ -129,31 +129,7 @@ a:hover {
 
 /* Content CSS */
 
-.blog-home-heading h3{
-	font-size: 70px;
-	font-family:"Blueberry";
-	padding-top: 250px;
-	text-align: center;
-}
 
-.blog-home-gallery{
-	width: 80%;
-	align-items: center;
-	/* margin-left: 200px;
-	margin-right: 20px; */
-	/* margin: 100px auto 50px; */
-	/* display: grid; */
-	grid-template-columns: repeat(auto-fit, minax(250px, 1fr));
-	grid-gap: 30px;
-
-}
-
-.blog-home-gallery img {
-	width: 40%;
-	cursor: pointer;
-	padding: 30px;
-	border-radius: 9%;
-}
 
 
 
@@ -245,7 +221,7 @@ footer {
 
 
 
-form{
+.footer-form form{
 	padding-bottom: 15px;
 	padding-top: 10px;
 	display: flex;
@@ -588,14 +564,18 @@ hr{
 	  padding-top: 260px;  
 	  padding-left: 260px;  
 	  padding-right: 260px;  
-	  padding-right: 60px;  
+	  padding-bottom: 60px;  
+	  
 }
+
+
 
 .p-column-two{
 	margin-top: -225px;
 	margin-left: 25px;
 	transition: 0.5s;
     transform: translate(0,0px);
+	
 
 }
 
@@ -615,3 +595,50 @@ hr{
 	transform: rotate(0deg) skew(0deg) translate(0, -10px);
 
 }
+
+.blog-title-two{
+	font-family:"Blueberry";
+	font-size: 50px;
+	color: #7795A8;
+	text-align: center;
+	float: right;
+	
+
+}
+
+.blog-subtitle-two{
+	font-family: 'Amatic SC', cursive;
+	padding-top: 10px;
+	float: right;
+	font-size: 30px;
+	color: #7795A8;
+	text-align: left;
+	margin-right: 25px;
+}
+
+.blog-home-text{
+	padding-top: 150px;
+	padding-bottom: 200px;
+}
+
+.blog-home-text form button{
+	height: 55px;
+    width: 85px;
+    font-size: 18px;
+    color: #d9d9d9;
+    background: black;
+    outline: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 42px;
+	margin-left: 210px;
+    border: 2px solid black;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Amatic SC', cursive;
+}
+
+.blog-home-text button:hover{
+	background: none;
+    color:  black;
+}
+
