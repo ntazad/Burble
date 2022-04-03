@@ -641,24 +641,37 @@ hr{
 }
 
 
+
+.product-home-img {
+	padding-top: 260px;  
+	padding-left: 260px;  
+	padding-right: 220px;  
+	padding-bottom: 200px;
+	
+}
+
+
 .product-title-two{
 	font-family:"Blueberry";
 	font-size: 50px;
 	color: #7795A8;
 	text-align: center;
 	float: right;
-	
+	padding-right: 300px;
+	padding-bottom: 50px;
 
 }
 
 .product-subtitle-two{
 	font-family: 'Amatic SC', cursive;
 	padding-top: 10px;
+	padding-left: 900px;
 	float: right;
 	font-size: 30px;
 	color: #7795A8;
-	text-align: left;
+	text-align: center;
 	margin-right: 25px;
+	margin-top: 10px;
 }
 
 .product-home-text{
