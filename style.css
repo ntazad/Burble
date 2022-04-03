@@ -641,44 +641,62 @@ hr{
 }
 
 
-.box-one {
-	width: 50%;
-	height: 50%;
+
+.product-home-img {
+	padding-top: 260px;  
+	padding-left: 260px;  
+	padding-right: 220px;  
+	padding-bottom: 200px;
+	
 }
 
-.whole-product {
-		padding-top: 260px;  
-		padding-left: 260px;  
-		padding-right: 260px;  
-		padding-bottom: 60px; 
+
+.product-title-two{
+	font-family:"Blueberry";
+	font-size: 50px;
+	color: #7795A8;
+	text-align: center;
+	float: right;
+	padding-right: 300px;
+	padding-bottom: 50px;
+
 }
 
-.product-text {
-	text-align: right;
+.product-subtitle-two{
+	font-family: 'Amatic SC', cursive;
+	padding-top: 10px;
+	padding-left: 900px;
+	float: right;
+	font-size: 30px;
+	color: #7795A8;
+	text-align: center;
+	margin-right: 25px;
+	margin-top: 10px;
 }
 
-.product-one-button [type="add"] {
-    height: 45px;
-    width: 155px;
-    /* align-items: center; */
+.product-home-text{
+	padding-top: 150px;
+	padding-bottom: 200px;
+}
+
+.product-home-text form button{
+	height: 55px;
+    width: 85px;
     font-size: 18px;
     color: #d9d9d9;
     background: black;
     outline: none;
     letter-spacing: 1px;
     cursor: pointer;
-    /* margin-top: 12px; */
+    margin-top: 42px;
+	margin-left: 210px;
     border: 2px solid black;
     transition: all 0.3s ease-in-out;
     font-family: 'Amatic SC', cursive;
-
 }
-.product-one-button [type="add"]:hover {
-    background: none;
+
+.product-home-text button:hover{
+	background: none;
     color:  black;
-}
-
-.product-one-button {
-	text-align: right;
 }
 
