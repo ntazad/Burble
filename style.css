@@ -575,8 +575,6 @@ hr{
 	margin-left: 25px;
 	transition: 0.5s;
     transform: translate(0,0px);
-	
-
 }
 
 .item p{
@@ -642,3 +640,44 @@ hr{
     color:  black;
 }
 
+
+.box-one {
+	width: 50%;
+	height: 50%;
+}
+
+.whole-product {
+		padding-top: 260px;  
+		padding-left: 260px;  
+		padding-right: 260px;  
+		padding-bottom: 60px; 
+}
+
+.product-text {
+	text-align: right;
+}
+
+.product-one-button [type="add"] {
+    height: 45px;
+    width: 155px;
+    /* align-items: center; */
+    font-size: 18px;
+    color: #d9d9d9;
+    background: black;
+    outline: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    /* margin-top: 12px; */
+    border: 2px solid black;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Amatic SC', cursive;
+
+}
+.product-one-button [type="add"]:hover {
+    background: none;
+    color:  black;
+}
+
+.product-one-button {
+	text-align: right;
+}
