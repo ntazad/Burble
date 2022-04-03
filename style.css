@@ -658,20 +658,18 @@ hr{
 	text-align: center;
 	float: right;
 	padding-right: 300px;
-	padding-bottom: 50px;
+	padding-right: 200px;
 
 }
 
 .product-subtitle-two{
 	font-family: 'Amatic SC', cursive;
-	padding-top: 10px;
 	padding-left: 900px;
 	float: right;
 	font-size: 30px;
 	color: #7795A8;
 	text-align: center;
 	margin-right: 25px;
-	margin-top: 10px;
 }
 
 .product-home-text{
@@ -699,3 +697,8 @@ hr{
 	background: none;
     color:  black;
 }
+
+.product-form {
+	padding-left: 900px;
+}
+
