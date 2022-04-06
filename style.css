@@ -659,17 +659,19 @@ hr{
 	float: right;
 	padding-right: 300px;
 	padding-right: 200px;
+	margin-top: 100px;
 
 }
 
 .product-subtitle-two{
 	font-family: 'Amatic SC', cursive;
-	padding-left: 900px;
+	padding-left: 850px;
 	float: right;
 	font-size: 30px;
 	color: #7795A8;
 	text-align: center;
 	margin-right: 25px;
+	margin-top: -300px;
 }
 
 .product-home-text{
@@ -700,5 +702,73 @@ hr{
 
 .product-form {
 	padding-left: 900px;
+	margin-top: 360px;
 }
 
+.product-one {
+	padding-bottom: 500px;
+}
+
+.product-img-two {
+	position: relative; 
+	top: -50px;
+}
+
+.product-one-look {
+	height: 500px;
+	width: 500px;
+	padding: 5px;
+	background-color: #BAD8E8;
+	border-radius: 5px;
+	margin-left: 285px;
+	margin-bottom: -700px;
+	margin-top: -175px;
+}
+
+.product-one-look:hover {
+	background-color: #FFFFFF;
+	transition: all 0.3s ease-in-out;
+}
+
+.img-one {
+	height: 200px;
+	width: 200px;
+	padding: 5px;
+	background-color: #BAD8E8;
+	border-radius: 5px;
+  }
+
+  .img-one:hover {
+	background-color: #FFFFFF;
+	transition: all 0.3s ease-in-out;
+  }
+
+  .img-column {
+	float: left;
+	width: 15%;
+	padding: 20px;
+  }
+
+  .product-img-two {
+	margin-top: -150px;
+	margin-left: -10px;
+	transition: 0.5s;
+    transform: translate(0,0px);
+}
+
+.item-img p{
+	padding: 10px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	text-decoration: none;
+	color: #221D24;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	letter-spacing: 1px
+}
+
+
+.product-img-two:hover{
+	transform: rotate(0deg) skew(0deg) translate(0, -10px);
+
+}
